@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            jcr:primaryType="nt:unstructured"
+            dc:format="image/jpeg"
+            dc:title="Panorama sui calanchi di Radicofani in Val d&#x27;Orcia, Toscana"
+            dc:creator="Travel Designer"
+            dc:rights="CC BY 4.0"
+            dc:source="https://commons.wikimedia.org/wiki/File:Panorama_sui_calanchi_di_Radicofani_in_Val_d%27Orcia,_Toscana.jpg"
+            dc:description="Panorama sui calanchi di Radicofani in Val d&#x27;Orcia, Toscana. Photo: Travel Designer, CC BY 4.0, via Wikimedia Commons."
+            tiff:ImageWidth="{Long}1920"
+            tiff:ImageLength="{Long}1280"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

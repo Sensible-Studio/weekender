@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            jcr:primaryType="nt:unstructured"
+            dc:format="image/jpeg"
+            dc:title="Hiking trail on Námafjall Mountain, Iceland, 20240716 1130 1348"
+            dc:creator="Jakub Hałun"
+            dc:rights="CC BY 4.0"
+            dc:source="https://commons.wikimedia.org/wiki/File:Hiking_trail_on_N%C3%A1mafjall_Mountain,_Iceland,_20240716_1130_1348.jpg"
+            dc:description="Hiking trail on Námafjall Mountain, Iceland, 20240716 1130 1348. Photo: Jakub Hałun, CC BY 4.0, via Wikimedia Commons."
+            tiff:ImageWidth="{Long}1920"
+            tiff:ImageLength="{Long}1273"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

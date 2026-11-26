@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            jcr:primaryType="nt:unstructured"
+            dc:format="image/jpeg"
+            dc:title="Cale Green backpacking in the Adak wilderness. Adak Island, Alaska (47996608993)"
+            dc:creator="Paxson Woelber"
+            dc:rights="CC BY 2.0"
+            dc:source="https://commons.wikimedia.org/wiki/File:Cale_Green_backpacking_in_the_Adak_wilderness._Adak_Island,_Alaska_(47996608993).jpg"
+            dc:description="Cale Green backpacking in the Adak wilderness. Adak Island, Alaska (47996608993). Photo: Paxson Woelber, CC BY 2.0, via Wikimedia Commons."
+            tiff:ImageWidth="{Long}1920"
+            tiff:ImageLength="{Long}1280"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

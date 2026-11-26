@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/weekender" mode="merge"/>
+    <filter root="/content/weekender" mode="merge"/>
+    <filter root="/content/dam/weekender" mode="merge"/>
+    <filter root="/content/experience-fragments/weekender" mode="merge"/>
+</workspaceFilter>

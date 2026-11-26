@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            jcr:primaryType="nt:unstructured"
+            dc:format="image/jpeg"
+            dc:title="Venice skateboarder on ramp (Unsplash)"
+            dc:creator="Liene Vitamante lienevitamante"
+            dc:rights="CC0"
+            dc:source="https://commons.wikimedia.org/wiki/File:Venice_skateboarder_on_ramp_(Unsplash).jpg"
+            dc:description="Venice skateboarder on ramp (Unsplash). Photo: Liene Vitamante lienevitamante, CC0, via Wikimedia Commons."
+            tiff:ImageWidth="{Long}1920"
+            tiff:ImageLength="{Long}1280"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

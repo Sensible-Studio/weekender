@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+
+    <!-- Content Filters -->
+    <filter root="/content/weekender" />
+    <!-- Changing the filter mode to merge will preserve any existing content on the target environment
+    <filter root="/content/weekender" mode="merge"/>
+    -->
+    <filter root="/content/dam/weekender" mode="update"/>
+    <filter root="/content/experience-fragments/weekender"/>
+
+    <!-- Force Policy and Template Updates -->
+    <filter root="/conf/weekender/settings/wcm" />
+    <filter root="/conf/weekender/settings/cloudconfigs" mode="merge" />
+    <filter root="/conf/weekender/settings/cloudsettings" mode="merge" />
+</workspaceFilter>

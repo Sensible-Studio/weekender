@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            jcr:primaryType="nt:unstructured"
+            dc:format="image/jpeg"
+            dc:title="Route 1 - Big Sur Coast Highway - Hurricane Point - NARA - 7721414"
+            dc:creator="Unknown authorUnknown author or not provided"
+            dc:rights="Public domain"
+            dc:source="https://commons.wikimedia.org/wiki/File:Route_1_-_Big_Sur_Coast_Highway_-_Hurricane_Point_-_NARA_-_7721414.jpg"
+            dc:description="Route 1 - Big Sur Coast Highway - Hurricane Point - NARA - 7721414. Photo: Unknown authorUnknown author or not provided, Public domain, via Wikimedia Commons."
+            tiff:ImageWidth="{Long}1920"
+            tiff:ImageLength="{Long}1440"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

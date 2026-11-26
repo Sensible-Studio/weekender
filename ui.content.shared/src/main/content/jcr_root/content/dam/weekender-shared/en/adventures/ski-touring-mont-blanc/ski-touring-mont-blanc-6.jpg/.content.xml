@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            jcr:primaryType="nt:unstructured"
+            dc:format="image/jpeg"
+            dc:title="Mont Blanc massif over lake Geneva at a sunny morning of 23 Januari 2016, as seen from the"
+            dc:creator="Henk Monster"
+            dc:rights="CC BY 3.0"
+            dc:source="https://commons.wikimedia.org/wiki/File:Mont_Blanc_massif_over_lake_Geneva_at_a_sunny_morning_of_23_Januari_2016,_as_seen_from_the_restaurants_parking_place_at_the_route_to_Col_de_la_Faucille_-_panoramio.jpg"
+            dc:description="Mont Blanc massif over lake Geneva at a sunny morning of 23 Januari 2016, as seen from the. Photo: Henk Monster, CC BY 3.0, via Wikimedia Commons."
+            tiff:ImageWidth="{Long}1920"
+            tiff:ImageLength="{Long}1275"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

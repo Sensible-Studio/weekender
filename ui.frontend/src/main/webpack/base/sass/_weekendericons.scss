@@ -1,0 +1,214 @@
+/*
+ *  Copyright 2018 Adobe Systems Incorporated
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+ 
+//** Weekender Specific Fonts
+$icomoon-font-family: "weekender-icon-font" !default;
+$icomoon-font-path: "../resources/fonts" !default;
+
+$weekendericon-menu: "\e916";
+$weekendericon-google: "\e900";
+$weekendericon-twitter: "\e901";
+$weekendericon-facebook: "\e902";
+$weekendericon-instagram: "\e903";
+$weekendericon-social-share: "\e904";
+$weekendericon-map: "\e905";
+$weekendericon-alert: "\e906";
+$weekendericon-download: "\e907";
+$weekendericon-info: "\e908";
+$weekendericon-email: "\e909";
+$weekendericon-comment: "\e90a";
+$weekendericon-share: "\e90b";
+$weekendericon-user: "\e90c";
+$weekendericon-home: "\e90d";
+$weekendericon-right-arrow: "\e90e";
+$weekendericon-left-arrow: "\e90f";
+$weekendericon-minus: "\e910";
+$weekendericon-plus: "\e911";
+$weekendericon-location: "\e912";
+$weekendericon-search: "\e913";
+$weekendericon-delete: "\e914";
+$weekendericon-cart: "\e915";
+$weekendericon-lock: "\e98f";
+$weekendericon-unlocked: "\e990";
+$weekendericon-play3: "\ea1c";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@mixin weekendericonstyle(){
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: '#{$icomoon-font-family}' !important;
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+   font-size: 1.25rem;
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+[class$="__icon"], [class*="__icon"], [class$="-icon"], [class*="-icon"]{
+  @include weekendericonstyle();
+}
+
+.weekendericon-menu {
+  &:before {
+    content: $weekendericon-menu; 
+  }
+}
+.weekendericon-google {
+  &:before {
+    content: $weekendericon-google; 
+  }
+}
+.weekendericon-twitter {
+  &:before {
+    content: $weekendericon-twitter; 
+  }
+}
+.weekendericon-facebook {
+  &:before {
+    content: $weekendericon-facebook; 
+  }
+}
+.weekendericon-instagram {
+  &:before {
+    content: $weekendericon-instagram; 
+  }
+}
+.weekendericon-social-share {
+  &:before {
+    content: $weekendericon-social-share; 
+  }
+}
+.weekendericon-map {
+  &:before {
+    content: $weekendericon-map; 
+  }
+}
+.weekendericon-alert {
+  &:before {
+    content: $weekendericon-alert; 
+  }
+}
+.weekendericon-download {
+  &:before {
+    content: $weekendericon-download; 
+  }
+}
+.weekendericon-info {
+  &:before {
+    content: $weekendericon-info; 
+  }
+}
+.weekendericon-email {
+  &:before {
+    content: $weekendericon-email; 
+  }
+}
+.weekendericon-comment {
+  &:before {
+    content: $weekendericon-comment; 
+  }
+}
+.weekendericon-share {
+  &:before {
+    content: $weekendericon-share; 
+  }
+}
+.weekendericon-user {
+  &:before {
+    content: $weekendericon-user; 
+  }
+}
+.weekendericon-home {
+  &:before {
+    content: $weekendericon-home; 
+  }
+}
+.weekendericon-right-arrow {
+  &:before {
+    content: $weekendericon-right-arrow; 
+  }
+}
+.weekendericon-left-arrow {
+  &:before {
+    content: $weekendericon-left-arrow; 
+  }
+}
+.weekendericon-minus {
+  &:before {
+    content: $weekendericon-minus; 
+  }
+}
+.weekendericon-plus {
+  &:before {
+    content: $weekendericon-plus; 
+  }
+}
+.weekendericon-location {
+  &:before {
+    content: $weekendericon-location; 
+  }
+}
+.weekendericon-search {
+  &:before {
+    content: $weekendericon-search; 
+  }
+}
+.weekendericon-delete {
+  &:before {
+    content: $weekendericon-delete; 
+  }
+}
+.weekendericon-cart {
+  &:before {
+    content: $weekendericon-cart; 
+  }
+}
+
+.weekendericon-menu {
+  &:before {
+    content: $weekendericon-menu; 
+  }
+}
+.weekendericon-lock {
+  &:before {
+    content: $weekendericon-lock; 
+  }
+}
+.weekendericon-unlocked {
+  &:before {
+    content: $weekendericon-unlocked; 
+  }
+}
+.weekendericon-play3 {
+  &:before {
+    content: $weekendericon-play3; 
+  }
+}
+

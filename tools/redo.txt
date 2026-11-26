@@ -1,0 +1,1 @@
+# assets to choose again, one a line (as in images.json)
