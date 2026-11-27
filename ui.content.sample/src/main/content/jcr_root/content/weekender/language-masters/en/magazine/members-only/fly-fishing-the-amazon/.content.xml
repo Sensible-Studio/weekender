@@ -9,7 +9,7 @@
         cq:lastReplicationAction="Activate"
         cq:tags="[]"
         cq:template="/conf/weekender/settings/wcm/templates/article-page-template"
-        jcr:description="Deep within the heart of the Amazon we had an unforgettable cultural experience with spectacular wildlife, all in a remote, beautiful setting with strange fish of all shapes and sizes."
+        jcr:description="Ten days on a blackwater tributary deep in the Amazon basin: peacock bass on the fly, a village that let us in, and a river that set the timetable."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -58,7 +58,7 @@
                         jcr:lastModified="{Date}2019-10-13T19:06:44.013-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="By Jake Hammer"
+                        jcr:title="By Rafael Monteiro"
                         sling:resourceType="weekender/components/title"
                         type="h4"/>
                     <contentfragment
@@ -117,7 +117,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="weekender/components/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/weekender/language-masters/en/contributors/jake-hammer/byline"/>
+                        fragmentVariationPath="/content/experience-fragments/weekender/language-masters/en/contributors/rafael-monteiro/byline"/>
                 </container>
                 <container_223059690
                     jcr:created="{Date}2019-04-03T18:32:31.547-07:00"

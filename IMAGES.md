@@ -130,12 +130,12 @@ saved again as a lighter JPEG; nothing else was changed. The same credit is in e
 Made for this project, free to use (CC0): the logo, the favicons and the pictures of the templates
 (`tools/brand.py` draws them), and:
 
-- `en/contributors/alex-iby.svg`: initials on a colour
-- `en/contributors/ayo-ogunseinde.svg`: initials on a colour
-- `en/contributors/ian-provo.svg`: initials on a colour
-- `en/contributors/jacob-wester.svg`: initials on a colour
-- `en/contributors/justin-barr.svg`: initials on a colour
-- `en/contributors/kumar-selvaraj.svg`: initials on a colour
-- `en/contributors/stacey-roswells.svg`: initials on a colour
+- `en/contributors/rafael-monteiro.svg`: initials on a colour
+- `en/contributors/elin-marklund.svg`: initials on a colour
+- `en/contributors/tomas-berglund.svg`: initials on a colour
+- `en/contributors/nils-aaberg.svg`: initials on a colour
+- `en/contributors/dana-whitlow.svg`: initials on a colour
+- `en/contributors/arun-pillai.svg`: initials on a colour
+- `en/contributors/maya-ortega.svg`: initials on a colour
 - `en/magazine/la-skateparks/ultimateguidetolaskateparks.pdf`: a one-page sample PDF
 - `en/magazine/western-australia/wa-camping.pdf`: a one-page sample PDF

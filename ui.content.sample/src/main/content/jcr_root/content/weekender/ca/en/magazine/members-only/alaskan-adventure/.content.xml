@@ -8,7 +8,7 @@
         cq:lastRolledoutBy="admin"
         cq:tags="[]"
         cq:template="/conf/weekender/settings/wcm/templates/article-page-template"
-        jcr:description="My brother and I had an amazing Alaskan adventure. Read about how we lived on glaciers for 18 days."
+        jcr:description="Skis for the mornings, fly rods for the last days: eighteen days in a glacier camp in Alaska, and a river on the way home."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -75,7 +75,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="By Ian Provo"
+                        jcr:title="By Tomas Berglund"
                         sling:resourceType="weekender/components/title"
                         type="h4"/>
                     <contentfragment
@@ -159,7 +159,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="weekender/components/text"
-                                text="&lt;blockquote>For 18 days we lived on a glacier, 50 miles by plane from the nearest anything...&lt;/blockquote>&#xd;&#xa;&lt;p>&lt;u>Neil Provo&lt;/u>&lt;/p>&#xd;&#xa;"
+                                text="&lt;blockquote>&quot;For eighteen days a camp dug into the snow was our address.&quot;&lt;/blockquote>&#xa;&lt;p>&lt;u>Tomas Berglund&lt;/u>&lt;/p>&#xa;"
                                 textIsRich="true"/>
                         </par3>
                         <par4
@@ -222,7 +222,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="weekender/components/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/weekender/language-masters/en/contributors/ian-provo/byline"/>
+                        fragmentVariationPath="/content/experience-fragments/weekender/language-masters/en/contributors/tomas-berglund/byline"/>
                 </container>
                 <container_223059690
                     cq:lastRolledout="{Date}2020-07-09T13:18:45.976-07:00"

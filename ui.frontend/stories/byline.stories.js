@@ -21,11 +21,11 @@ class Byline {
       "<div class='byline image aem-GridColumn--default--9 aem-GridColumn'>" +
       "<div class='cmp-byline'>" +
       "<div class='cmp-byline__image'>" +
-      "<div data-cmp-src='http://fpoimg.com/300x250?text=Byline Author' data-asset='/content/dam/weekender-shared/en/contributors/stacey-roswells.svg' data-asset-id='b84974cf-ba8d-4777-b670-2f9e66d04cdc' class='cmp-image' itemscope='' itemtype='http://schema.org/ImageObject'>" +
+      "<div data-cmp-src='http://fpoimg.com/300x250?text=Byline Author' data-asset='/content/dam/weekender-shared/en/contributors/maya-ortega.svg' data-asset-id='b84974cf-ba8d-4777-b670-2f9e66d04cdc' class='cmp-image' itemscope='' itemtype='http://schema.org/ImageObject'>" +
       "<img src='http://fpoimg.com/300x250?text=Byline Author' class='cmp-image__image' itemprop='contentUrl' data-cmp-hook-image='image' alt=''>" +
       '</div>' +
       '</div>' +
-      "<h2 class='cmp-byline__name'>Stacey Roswells</h2>" +
+      "<h2 class='cmp-byline__name'>Maya Ortega</h2>" +
       "<p class='cmp-byline__occupations'>Blogger, Photographer, Youtuber</p>" +
       '</div>' +
       '</div>'

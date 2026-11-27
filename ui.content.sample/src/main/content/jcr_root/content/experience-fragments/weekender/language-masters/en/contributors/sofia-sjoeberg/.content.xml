@@ -7,7 +7,7 @@
         cq:tags="[]"
         cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Sofia Sjöberg"
+        jcr:title="Elin Marklund"
         sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
     <master/>
     <byline/>

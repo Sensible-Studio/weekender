@@ -8,7 +8,7 @@
         cq:lastRolledoutBy="admin"
         cq:tags="[]"
         cq:template="/conf/weekender/settings/wcm/templates/article-page-template"
-        jcr:description="We traveled to Northern Norway to document the joy of surfing in extreme, but breathtakingly beautiful conditions."
+        jcr:description="A week on the coast of northern Norway in February: short days, cold water and waves that nobody else was riding."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -64,7 +64,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Aloha Spirits in Northern Norway"
+                        jcr:title="Surfing under the Northern Lights"
                         sling:resourceType="weekender/components/title"
                         type="h1"/>
                     <title_875115054
@@ -76,7 +76,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="By Jacob Wester"
+                        jcr:title="By Nils Aaberg"
                         sling:resourceType="weekender/components/title"
                         type="h4"/>
                     <contentfragment
@@ -112,7 +112,7 @@
                                 jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="weekender/components/text"
-                                text="&lt;blockquote>&amp;quot;When rare sunrays pierce through the low clouds, the scenery revelas its vibrancy&amp;quot;&lt;/blockquote>&#xd;&#xa;"
+                                text="&lt;blockquote>&quot;The cold stops mattering the moment the first set shows on the horizon.&quot;&lt;/blockquote>&#xa;"
                                 textIsRich="true"/>
                             <image
                                 cq:lastRolledout="{Date}2020-07-09T08:56:36.763-07:00"
@@ -219,7 +219,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="weekender/components/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/weekender/language-masters/en/contributors/jacob-wester/byline"/>
+                        fragmentVariationPath="/content/experience-fragments/weekender/language-masters/en/contributors/nils-aaberg/byline"/>
                 </container>
                 <container_223059690
                     cq:lastRolledout="{Date}2020-07-09T08:56:36.796-07:00"

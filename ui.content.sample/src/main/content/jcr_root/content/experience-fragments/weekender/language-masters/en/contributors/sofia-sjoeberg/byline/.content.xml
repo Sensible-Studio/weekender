@@ -35,8 +35,8 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="weekender/components/byline"
-                    fileReference="/content/dam/weekender-shared/en/contributors/ayo-ogunseinde.svg"
-                    name="Sofia Sjöberg"
+                    fileReference="/content/dam/weekender-shared/en/contributors/elin-marklund.svg"
+                    name="Elin Marklund"
                     occupations="[Photographer,Skiier,Youtuber]">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default

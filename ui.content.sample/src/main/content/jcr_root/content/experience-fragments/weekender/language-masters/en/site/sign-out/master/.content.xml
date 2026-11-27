@@ -33,7 +33,7 @@
                 <text-1
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="weekender/components/text"
-                    text="&lt;p>There's a bunch of great content only available to signed in users you'll miss out on!&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                    text="&lt;p>Some of our stories are for signed-in members only.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
                     textIsRich="true"/>
                 <separator
                     jcr:primaryType="nt:unstructured"

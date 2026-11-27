@@ -9,7 +9,7 @@
         cq:lastReplicationAction="Activate"
         cq:tags="[]"
         cq:template="/conf/weekender/settings/wcm/templates/article-page-template"
-        jcr:description="The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world. "
+        jcr:description="Three weeks and five thousand kilometres up the coast of Western Australia in a van: red roads, empty beaches, gorges the colour of rust and very few people. "
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -58,7 +58,7 @@
                         jcr:lastModified="{Date}2019-10-14T14:58:37.803-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="By Sofia Sjöberg"
+                        jcr:title="By Elin Marklund"
                         sling:resourceType="weekender/components/title"
                         type="h4"/>
                     <contentfragment
@@ -84,7 +84,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="weekender/components/text"
-                                text="&lt;blockquote>&lt;b>Wanderlust&amp;nbsp;\\ˈwɒndəlʌst\\&amp;nbsp;&lt;br>&#xa; &lt;b>a strong desire to travel.&lt;/b>&lt;/b>&lt;/blockquote>&#xa;&lt;p>&lt;b>&lt;i>&lt;u>noun&lt;/u>&lt;/i>&lt;/b>&lt;/p>&#xa;"
+                                text="&lt;blockquote>&lt;b>Wanderlust&amp;nbsp;\\ˈwɒndəlʌst\\&amp;nbsp;&lt;br>&#xa; &lt;b>the wish to see what is past the next roadhouse.&lt;/b>&lt;/b>&lt;/blockquote>&#xa;&lt;p>&lt;b>&lt;i>&lt;u>noun&lt;/u>&lt;/i>&lt;/b>&lt;/p>&#xa;"
                                 textIsRich="true"/>
                         </par1>
                         <par2
