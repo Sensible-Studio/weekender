@@ -19,7 +19,7 @@
     <parent>
         <groupId>io.sensiblestudio</groupId>
         <artifactId>weekender</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>weekender.core</artifactId>

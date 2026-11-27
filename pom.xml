@@ -19,7 +19,7 @@
     <groupId>io.sensiblestudio</groupId>
     <artifactId>weekender</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
      <name>Weekender Sites Project - Reactor Project</name>
     <description>Weekender Sites Project</description>
     <url>https://github.com/adobe/weekender</url>
