@@ -4,8 +4,8 @@
     <jcr:content
         cq:template="/libs/wcm/msm/templates/blueprint"
         jcr:primaryType="nt:unstructured"
-        jcr:title="Weekender Site Blueprint"
-        jcr:description="Creates blueprint config for Weekender Site"
+        jcr:title="Weekender Site"
+        jcr:description="The languages and pages of Weekender, as the source of a new site."
         sling:resourceType="wcm/msm/components/blueprint"
         sitePath="/content/weekender/language-masters">
         <dialog/>
