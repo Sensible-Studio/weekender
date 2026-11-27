@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:tags="[weekender-shared:customer-journey/engage,weekender-shared:customer-journey/convert,weekender-shared:region/nam/united-states,weekender-shared:season/winter,weekender-shared:activity/skiing]"
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
-        jcr:description="Red roads, empty beaches and a night sky with nothing in the way.  With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience."
+        jcr:description="A long weekend of steep, dry snow in the mountains of western Wyoming, with a local guide to find the best of it and an elk steak at the end of the day."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -214,7 +214,7 @@
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming"
                             paragraphScope="range"
-                            text="Downhill Skiing Wyoming Experience wild untamed, rolling, wide-open terrain of Wyoming in the winter. The spectacular Tetons of Wyoming provide a wonderous backdrop for your Jackson Hole ski vacation. Jackson Hole is unlike anywhere else in the US. Red roads, empty beaches and a night sky with nothing in the way. With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience."
+                            text="Downhill Skiing in Jackson Hole, Wyoming A long weekend in the Tetons The mountains of western Wyoming rise straight from a flat valley floor, and the ski area on their flank is known for two things: light, dry snow and a great deal of steep ground. With a local guide you spend less time reading the map and more time skiing. This trip suits confident skiers who are at home on red and black runs."
                             variationName="master">
                             <par2
                                 jcr:primaryType="nt:unstructured"

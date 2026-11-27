@@ -8,7 +8,7 @@
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Colorado Rock Climbing"
-        jcr:description="With all of Colorado's beautiful peaks, rock formations and gorgeous mountain views, it's not hard for rock climbers to find a little slice of climbing paradise nearly everywhere they go. On this tour we'll take you to the top parks in Colorado so you can experience the diverse climbing landscape that has made Colorado a goto destination for rock climbers from around the world."
+        jcr:description="Three days and three kinds of rock in Colorado, from red sandstone fins to a granite canyon, with nights under canvas between them."
         sling:resourceType="weekender/components/page"
         socialMedia="[facebook,pinterest]">
         <root
@@ -186,7 +186,7 @@
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/colorado-rock-climbing/colorado-rock-climbing"
                             paragraphScope="all"
-                            text="Colorado Rock Climbing With all of Colorado's beautiful peaks, rock formations and gorgeous mountain views, it's not hard for rock climbers to find a little slice of climbing paradise nearly everywhere they go. On this tour we'll take you to the top parks in Colorado so you can experience the diverse climbing landscape that has made Colorado a goto destination for rock climbers from around the world."
+                            text="Overnight Colorado Rock Climbing Colorado packs an unusual variety of rock into a small area: red sandstone, rough granite and smooth river-cut canyon walls, all within a day's drive. Over three days we climb on each of them and camp in between. The trip suits climbers who already lead outdoors and are comfortable on long days at altitude."
                             variationName="master">
                             <par1
                                 jcr:primaryType="nt:unstructured"
@@ -211,7 +211,7 @@
                             elementNames="itinerary"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/colorado-rock-climbing/colorado-rock-climbing"
                             paragraphScope="all"
-                            text="Colorado Rock Climbing Garden of the Gods A local favorite close to Colorado Springs, the Garden of the Gods features paved hiking trails that wind through a natural rock garden of red sandstone formed by 300 million years of geological activity.. Rocky Mountain National Park Rocky Mountain National Park encompasses 415 square miles containing 300 miles of hiking trails, wildlife, alpine worlds and of course world class rock climbing. Keep an eye out for elk, bighorn sheep, moose and mule deer. Castlewood Canyon State Park This park offers something for all skill levels from 20 feet to 60 feet. The routes are short but we'll be able to get multiple climbs for the day. We'll enjoy a picnic at the Bridge Canyon Overlook."
+                            text="Overnight Colorado Rock Climbing Day 1: Sandstone We begin among the red fins at the foot of the Front Range. The rock is soft and the holds are rounded, so the morning is a lesson in trusting your feet. Camp is an hour into the hills. Day 2: Granite A full day on a granite dome with routes of three to five pitches. Cracks, slabs and a summit wide enough to eat lunch on. We keep an eye on the sky: storms arrive in the early afternoon in summer, and we plan to be down before them. Day 3: The canyon The last morning is spent on shaded walls above a creek, on short, steep routes that are a pleasure after two long days. We finish with a late lunch in town."
                             variationName="master">
                             <par6
                                 jcr:primaryType="nt:unstructured"
@@ -227,7 +227,7 @@
                             elementNames="gearList"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/colorado-rock-climbing/colorado-rock-climbing"
                             paragraphScope="all"
-                            text="Colorado Rock Climbing Climbing shoes Sleeping bag Pants Shorts Jacket Hat"
+                            text="Overnight Colorado Rock Climbing Climbing shoes, harness and helmet Sleeping bag and mat Long trousers and shorts A warm jacket for the evenings Sun hat and sunscreen Three litres of water capacity"
                             variationName="master">
                             <par1
                                 jcr:primaryType="nt:unstructured"

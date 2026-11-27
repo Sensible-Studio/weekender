@@ -7,7 +7,7 @@
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Cycling Southern Utah"
-        jcr:description="Join us as we explore the rugged, stunningly gorgeous landscape of southern Utah. Touch your soul as we ride through red rock canyons and sandstone cliffs in Bryce Canyon and Zion National Park, two of Utah's iconic national parks. These parks provide a stunning backdrop for a once in a lifetime cycling vacation."
+        jcr:description="Five days by road bike through the canyon country of southern Utah: long climbs, empty roads, red rock at every turn and a support van never far behind."
         sling:resourceType="weekender/components/page"
         socialMedia="[facebook,pinterest]">
         <root
@@ -185,7 +185,7 @@
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/cycling-southern-utah/cycling-southern-utah"
                             paragraphScope="all"
-                            text="Cycling Southern Utah Join us as we explore the rugged, stunningly gorgeous landscape of southern Utah. Touch your soul as we ride through red rock canyons and sandstone cliffs in Bryce Canyon and Zion National Park, two of Utah's iconic national parks. These parks provide a stunning backdrop for a once in a lifetime cycling vacation."
+                            text="Cycling Southern Utah Southern Utah is a landscape of red cliffs, natural arches and roads with almost no traffic. We cross it by road bike over five days, riding between 60 and 110 kilometres a day with a support van that carries the bags, the water and anyone who has had enough. The climbs are long and the air is thin and dry, so this is a trip for fit, experienced riders."
                             variationName="master">
                             <par1
                                 jcr:primaryType="nt:unstructured"
@@ -214,7 +214,7 @@
                             elementNames="itinerary"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/cycling-southern-utah/cycling-southern-utah"
                             paragraphScope="all"
-                            text="Cycling Southern Utah Welcome to Utah After a beautiful 2 hour shuttle ride to the Ridge Lodge, we'll have a delicious lunch at the Roundabout Saloon where we'll make introductions and discuss bike riding in a national park. Our first ride will be amongst the sandstone cliffs in Bryce Canyon. Bryce Canyon Ride along one of the most scenic byways in the world as you'll encounter views which stretch in every direction. Enjoy lunch amongst the red rock formations where you'll be able to hop off your bike and explore. Zion National Park Follow the route where ancient native people and pioneers walked while gazing at the steep red cliffs that Zion National Park is known for. Experience one of the highlights of Zion as we visit a 2000 feet deep canyon with opportunities to hike in an area known as the Narrows."
+                            text="Cycling Southern Utah Day 1: Into the canyons A two-hour transfer from the airport to the lodge, bike fitting and a short ride at the end of the afternoon to loosen the legs. Dinner and a briefing on the days ahead. Days 2 to 4: Three stages Each day follows the same pattern: an early start while it is cool, a long climb to a plateau, lunch from the van at a viewpoint and a descent to the next lodge. Day three is the hardest, with 1,800 metres of climbing, and ends at a rim where the sunset is worth the effort. On day four there is time for a walk among the rock formations on foot. Day 5: The last descent A morning ride of 60 kilometres, mostly downhill, lunch together and transfers back to the airport."
                             variationName="master">
                             <par6
                                 jcr:primaryType="nt:unstructured"
@@ -230,7 +230,7 @@
                             elementNames="gearList"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/cycling-southern-utah/cycling-southern-utah"
                             paragraphScope="all"
-                            text="Cycling Southern Utah Bicycle Cycling clothing Hiking shoes"
+                            text="Cycling Southern Utah Your own road bike, or one of ours on request Helmet, cycling clothes for hot days and a wind jacket for the descents Walking shoes for the afternoon on foot"
                             variationName="master">
                             <par1
                                 jcr:primaryType="nt:unstructured"

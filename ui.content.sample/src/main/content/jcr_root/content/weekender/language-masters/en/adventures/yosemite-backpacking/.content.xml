@@ -8,7 +8,7 @@
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Yosemite Backpacking"
-        jcr:description="Yosemite National Park, designated a World Heritage Site in 1984, is best known for its granite cliffs, waterfalls and giant sequoias, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, glaciers and lakes. The majority of visitors spend their time in the Yosemite Valley, which we'll also explore, but on this trip we'll take you to the backcountry that inspired John Muir to lead a movement to have Congress establish Yosemite as we know it today."
+        jcr:description="Five days on foot in the high country of Yosemite, away from the valley crowds: granite domes, cold lakes, four nights in a tent and a waterfall to end on."
         sling:resourceType="weekender/components/page"
         socialMedia="[facebook,pinterest]">
         <root
@@ -186,7 +186,7 @@
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/yosemite-backpacking/yosemite-backpacking"
                             paragraphScope="all"
-                            text="Yosemite Backpacking Yosemite National Park, designated a World Heritage Site in 1984, is best known for its granite cliffs, waterfalls and giant sequoias, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, glaciers and lakes. The majority of visitors spend their time in the Yosemite Valley, which we'll also explore, but on this trip we'll take you to the backcountry that inspired John Muir to lead a movement to have Congress establish Yosemite as we know it today."
+                            text="Yosemite Backpacking Most visitors to Yosemite see the valley floor, and it deserves its fame. The larger part of the park lies above it: open granite, meadows, and lakes that few people reach, because the only way in is on foot. We carry what we need for four nights and walk between 10 and 16 kilometres a day. You need to be fit and used to walking with a pack; no earlier backpacking experience is required."
                             variationName="master">
                             <par1
                                 jcr:primaryType="nt:unstructured"
@@ -200,7 +200,7 @@
                                     jcr:lastModified="{Date}2020-11-08T12:20:54.958-08:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Yosemite is a great family friendly adventure"
+                                    jcr:title="Granite, pines and a long way from the car park"
                                     sling:resourceType="weekender/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="false"
@@ -219,7 +219,7 @@
                             elementNames="itinerary"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/yosemite-backpacking/yosemite-backpacking"
                             paragraphScope="all"
-                            text="Yosemite Backpacking Day 1 Our trip begins with introductions in the Curry Village at 9am. Look for your guide with the red flag in lot D. After the orientation meeting we'll distribute equipment for the next 5 days. Our first night will be in the Yosemite Valley. Day 2 Today will feature 5 miles of hiking with 1000 feet of elevation. We'll depart the Ahwahnee Lodge and head along the Merced River as we climb to our first campsite at 4500 feet. Day 3 Our longest day of hiking will feature 8 miles of hiking with 2500 feet of elevation as we make our way to Inspiration Point. At the summit you'll be treated to gorgeous views of El Capitan and Half Dome. The first half of the trail is steep but the second half is more of a gentle incline. Day 4 Our shortest hike of the trip will feature 3 miles of hiking with 500 feet of elevation. As we make our way to Panorama Point you'll get once in a lifetime views of Half Dome, North and Basket Domes and the Royal Arches. Day 5 A 6 mile hike back to the Yosemite Valley where we'll see the Cascades, a 600 foot waterfall, and stop at Glacier Point where you'll have unsurpassed views of Vernal Falls and Half Dome."
+                            text="Yosemite Backpacking Day 1 We meet in the valley at nine to check packs and collect the wilderness permit, then take the bus up to the high road and walk three hours to the first lake. Day 2 Over a pass with a view of the whole range, and down to a camp in a meadow beside a stream. Day 3 A day without the big packs: a scramble up a granite dome in the morning, a swim and a rest in the afternoon. Day 4 A long descent through forest toward the rim of the valley. The last camp looks straight across at the great cliffs. Day 5 Down the trail beside two waterfalls, wet with spray, to the valley floor and a well-earned lunch."
                             variationName="master">
                             <par10
                                 jcr:primaryType="nt:unstructured"
@@ -235,7 +235,7 @@
                             elementNames="gearList"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/yosemite-backpacking/yosemite-backpacking"
                             paragraphScope="all"
-                            text="Yosemite Backpacking Hiking shoes Hat Water purifier Shorts Pants Jacket Thernals Sunscreen"
+                            text="Yosemite Backpacking Walking boots that you have already worn in A rucksack of 50 to 60 litres Sleeping bag and mat Warm layer, rain jacket and a sun hat Shorts and long trousers Water bottles for three litres Head torch Sunscreen Tents, stoves, food and the bear-proof canisters for storing it are provided."
                             variationName="master">
                             <par1
                                 jcr:primaryType="nt:unstructured"

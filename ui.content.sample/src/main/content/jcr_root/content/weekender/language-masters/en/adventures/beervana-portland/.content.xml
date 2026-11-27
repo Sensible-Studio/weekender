@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:tags="[weekender-shared:customer-journey/engage,weekender-shared:customer-journey/convert,weekender-shared:region/nam/united-states,weekender-shared:season/summer,weekender-shared:activity/social,weekender-shared:season/spring,weekender-shared:season/fall]"
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
-        jcr:description="This adventure will provide insider access to spectacular local breweries that define the taste and experience of Oregon beer culture and tradition. "
+        jcr:description="One day on foot between four small breweries in Portland, with a brewer to explain what is in the glass and a proper lunch in the middle."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -203,7 +203,7 @@
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/beervana-portland/beervana-in-portland"
                             paragraphScope="all"
-                            text="Beervana in Portland Experience the best craft breweries in the Pacific Northwest. Portland is often referred to as Beervana, and it’s easy to understand why once you get a sip of their delicious ales. This adventure will provide insider access to spectacular local breweries that define the taste and experience of Oregon beer culture and tradition. Our Brewery Tour takes you on a beer tasting adventure in hip and trendy Pearl District through Historic Old Town District in Portland, Oregon. Experience Portland’s vibrant history while you sample the best brews the city has to offer."
+                            text="Beervana in Portland A day among Portland's small breweries Portland has more breweries than any city of its size, most of them small, independent and within walking distance of each other. This is a day on foot between four of them, in the company of a guide who has brewed for a living. You will taste around a dozen beers in small glasses, see how they are made and eat well along the way. It is a day for the curious, and you do not need to know anything about beer to enjoy it."
                             variationName="master">
                             <par2
                                 jcr:primaryType="nt:unstructured"
@@ -236,7 +236,7 @@
                             elementNames="itinerary"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/beervana-portland/beervana-in-portland"
                             paragraphScope="all"
-                            text="Beervana in Portland We will start with the education first and introduce you to the ingredients in beer and how they've contributed to the rise of craft beer in the Pacific Northwest. We'll walk you through the tasting process so you can better enjoy beers and explore new styles. Walt Brewing and Barrel House Our first stop for a tour and lunch will be Walt Brewing and Barrel House. Walt Brewing and Barrel House has become Oregon's premier Belgian-style brewpub and one of the fastest growing craft breweries in the country. Walt Brewing and Barrel House is growing by leaps and bounds, with six pubs located throughout the Pacific Northwest, and an impressive brand new production facility in Seattle. Amendola Brewing Company On our next stop in the hip Pearl District location on Portland, you'll get VIP access behind the scenes to see the brewing process and how the ingredients work together to produce the liquid love at Amendola Brewing Company. Amendola's is known for it's tasty full-bodied stouts and porters that feel like a feast in and of itself. Gordon's Hop and Scotch By the 3rd stop, let's get ready for some eats! Food paired with beer is the best way to enjoy both food and beer. Gordon's Hops and Scotch will be a great venue where you can connect with your new beer connoisseur friends, play some cornhole and bocce ball, all while sipping on some of the city's finest suds and snacks."
+                            text="Beervana in Portland We meet at eleven in the inner east side, a district of old warehouses that brewers moved into twenty years ago. Morning: how beer is made The first stop is a working brewhouse. Among the tanks we look at malt, hops, yeast and water, smell and taste each of them, and follow a batch from grain to glass. The tasting that follows covers the main families of beer, from a pale lager to a dark stout. Lunch: food and beer together A short walk brings us to a brewery with a kitchen. The cook pairs four small plates with four beers and explains each choice. Afternoon: the experiments The last two stops are tiny. One ages its beers in wine barrels, the other brews with fruit from farms nearby. We finish by five, close to a tram stop."
                             variationName="master">
                             <par1
                                 jcr:primaryType="nt:unstructured"
@@ -268,7 +268,7 @@
                             elementNames="gearList"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/beervana-portland/beervana-in-portland"
                             paragraphScope="all"
-                            text="Beervana in Portland First and foremost, bring your thirst! (Both for beer and for knowledge about the history and craft of beermaking) Depending on the time of year, it may get chilly and/or wet so dress accordingly. Camera to capture great memories"
+                            text="Beervana in Portland Comfortable shoes: we walk about four kilometres in all A photo ID showing that you are 21 or older A rain jacket, in any season"
                             variationName="master">
                             <par1
                                 jcr:primaryType="nt:unstructured"

@@ -8,7 +8,7 @@
         cq:lastRolledoutBy="admin"
         cq:tags="[weekender-shared:customer-journey/engage,weekender-shared:customer-journey/convert,weekender-shared:activity/cycling,weekender-shared:activity/social,weekender-shared:season/summer,weekender-shared:region/emea/italy]"
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
-        jcr:description="Visiting Tuscany on a bicycle is about experiencing the old world charm of Italy on your own terms."
+        jcr:description="Four days by bike on the white gravel roads of Tuscany, from the Chianti hills to Siena and the Val d'Orcia, at a pace that leaves room for lunch."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -317,7 +317,7 @@
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/cycling-tuscany/cycling-tuscany"
                             paragraphScope="range"
-                            text="Cycling Tuscany Experience Tuscany by Bicycle Visiting Tuscany on a bicycle is about experiencing the old world charm of Italy on your own terms. Your efforts on the climbs of Italy's rolling hills during this tour will be rewarded with sunny Mediterranean landscapes and unmatched Italian hospitality. Tuscany’s natural wonders have always been a well of inspiration for arts and culture. Find out why as you explore the Italian countryside and coastline on bicycle."
+                            text="Cycling Tuscany Tuscany at the speed of a bicycle A car is too fast for Tuscany. On a bike you smell the cypress and the wood smoke, you hear the bells, and you arrive in each hill town hungry enough to do justice to lunch. We ride quiet lanes and the white gravel roads between vineyards, between 40 and 60 kilometres a day, and sleep in farmhouses and small family hotels."
                             variationName="master">
                             <par2
                                 cq:lastRolledout="{Date}2020-07-09T08:56:38.931-07:00"
@@ -361,7 +361,7 @@
                             elementNames="itinerary"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/cycling-tuscany/cycling-tuscany"
                             paragraphScope="range"
-                            text="Nicaragua Surf Trip Day 1 Our adventure begins! In est ante in nibh. Phasellus faucibus scelerisque eleifend donec. Ultricies mi quis hendrerit dolor magna eget. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Ut aliquam purus sit amet luctus venenatis. Day 2 Forrest hike to secluded surf spot Ut sem viverra aliquet eget sit. Urna et pharetra pharetra massa massa ultricies. Sed blandit libero volutpat sed cras ornare. Nascetur ridiculus mus mauris vitae ultricies leo integer. Nibh mauris cursus mattis molestie a iaculis at erat. Day 3 Surf at sunset cliffs Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Placerat vestibulum lectus mauris ultrices eros in. Eget dolor morbi non arcu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vulputate mi sit amet mauris commodo quis."
+                            text="Cycling Tuscany Day 1: The Chianti hills From a village among the vineyards we ride south over rolling hills to Siena, entering the city through one of its medieval gates in time for an evening walk to the square. Day 2: Clay hills South of Siena the land opens into bare, pale ridges with a single farmhouse on each. A long gravel section leads to an abbey among the cypresses, and to dinner at a farm that makes its own pecorino. Day 3: Val d'Orcia The postcard day: a winding avenue of cypresses, a hot spring where you can soak tired legs, and a climb to a hill town known for its red wine. Day 4: Back through the vines A shorter ride on quiet roads to the last lunch, long and unhurried, before the transfer to Florence."
                             variationName="master">
                             <par9
                                 cq:lastRolledout="{Date}2020-07-09T08:56:38.948-07:00"

@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:tags="[weekender-shared:customer-journey/engage,weekender-shared:customer-journey/convert,weekender-shared:region/nam/canada,weekender-shared:season/summer,weekender-shared:activity/cycling]"
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
-        jcr:description="Whistler is often considered North America’s preeminent mountain bike destination.  Let us show you why."
+        jcr:description="Two days on the forest trails around Whistler with a coach for every three riders: flowing singletrack on the valley floor, then the lifts of the bike park."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -213,7 +213,7 @@
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/whistler-mountain-biking/whistler-mountain-biking"
                             paragraphScope="range"
-                            text="Whistler Mountain Biking Explore Whistler's Epic Singletrack Trails Whistler is often considered North America’s preeminent mountain bike destination. Let us show you why Whistler has earned that designation by guiding you through the hidden spider web of the most epic single-track you've ever conquered. Our tours are primarily for hardcore moutain biking enthusiasts but can be specialized to the interests and abilities of each group. Ride fast rolling trails or attempt some of the world famous logs and ladders."
+                            text="Whistler Mountain Biking Adventure Two days on Whistler's trails Whistler is as well known among mountain bikers as among skiers. Hundreds of kilometres of trail run through the forest around the village, and in summer the ski lifts carry bikes. This weekend is for riders who are at ease on rough ground and want to go faster and more smoothly, with a coach who knows every root."
                             variationName="master">
                             <par2
                                 jcr:primaryType="nt:unstructured"

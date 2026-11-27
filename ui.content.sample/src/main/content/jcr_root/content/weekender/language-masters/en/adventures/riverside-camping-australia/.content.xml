@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:tags="[weekender-shared:customer-journey/engage,weekender-shared:customer-journey/convert,weekender-shared:region/apac/australia,weekender-shared:season/summer,weekender-shared:activity/hiking,weekender-shared:activity/camping,weekender-shared:activity/hunting-fishing]"
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
-        jcr:description="Learn how to pitch a tent by the Siegel River, catch local cod, and spot unique Australian wildlife on this retreat. Or, you can sit back in the shade with a cool beverage and a book until it's too dark to read, then tell stories around a campfire. "
+        jcr:description="Three days beside a slow river in the Australian bush: tents under the gum trees, canoes, a camp fire and a sky full of stars, two hours by train from the city."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -212,7 +212,7 @@
                             displayMode="singleText"
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/riverside-camping-australia/riverside-camping-australia"
-                            text="Riverside Camping Australia Escape the hustle and bustle of city life and recharge with a couple of peaceful days and return with tons of memories of camping in the bush and experiences that will last a lifetime. Learn how to pitch a tent by the Siegel River, catch local cod, and spot unique Australian wildlife on this retreat. Or, you can sit back in the shade with a cool beverage and a book until it's too dark to read, then tell stories around a campfire."
+                            text="Riverside Camping Australia Two hours inland from the coast the suburbs give way to gum forest, and a slow brown river winds through it between sandy banks. We camp beside it for two nights. There is nothing to achieve here: you can paddle, swim, walk, fish or sit under a tree with a book, and the cook will call when dinner is ready. It is a good first camping trip, and children are welcome."
                             variationName="master">
                             <par0
                                 jcr:primaryType="nt:unstructured"

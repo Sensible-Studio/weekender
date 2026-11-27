@@ -8,7 +8,7 @@
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Napa Wine Tasting"
-        jcr:description="Enjoy spectacular wine tasting in the Napa Valley."
+        jcr:description="A day among the vineyards of the Napa Valley with a driver and a guide: three small family wineries, a picnic among the vines and no hurry at all."
         sling:resourceType="weekender/components/page"
         socialMedia="[facebook,pinterest]">
         <root
@@ -197,7 +197,7 @@
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/napa-wine-tasting/napa-wine-tasting"
                             paragraphScope="all"
-                            text="Napa Wine Tasting Enjoy spectacular wine tasting in the Napa Valley Napa Valley is one of the most famous wine regions in the world. Located an hour north of San Francisco, Napa is renowned for their wine, pleasant temperatures and world class restaurants. This tasting will provide insider access to spectacular wineries and restaurants in Yountville, Calistoga and St. Helena."
+                            text="Napa Wine Tasting A slow day in the Napa Valley The Napa Valley is fifty kilometres of vineyards an hour north of San Francisco, and its famous names can be crowded and formal. We go instead to three small, family-run wineries where the person pouring is often the person who made the wine. A driver takes care of the road, so everyone can taste."
                             variationName="master">
                             <par2
                                 jcr:primaryType="nt:unstructured"
@@ -231,7 +231,7 @@
                             elementNames="itinerary"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/napa-wine-tasting/napa-wine-tasting"
                             paragraphScope="all"
-                            text="Napa Wine Tasting Dog's Bark Winery Our first stop will be at the family owned Dog's Bark Winery where you'll get a behind the scenes peak at the wine making process. Dog's Bark is one of Napa's first wineries, founded in 1875 by Pierre Martin an immigrant from Bordeaux. Spring Winery Since 1959, Spring Winery has been producing world-class wines that pair best with great food and great company. Their wines reflect the personality of their wine makers and the surrounding vineyards in the heart of Napa Valley Mountain Creek Winery For over 35 years, Mountain Creek Winery has produced award winning wines using organically grown grapes and traditional winemaking techniques. You won't just be tasting the wine, you'll get an inside look at the way wine is made — from the way the land is farmed to where the wine is made."
+                            text="Napa Wine Tasting Morning: sparkling wine We leave the city at nine and start, as one should, with bubbles: a small producer on the cooler southern edge of the valley, with a walk through the vines and a look at the cellar. Midday: a hillside estate Up a winding road on the eastern side, a family has farmed the same slope for three generations. We taste their Cabernet from the barrel and from the bottle, and have a picnic lunch under the oaks with the valley below. Afternoon: the old vines The last visit is to a grower who works Zinfandel vines planted a century ago. A final tasting in the garden, and we are back in San Francisco by six."
                             variationName="master">
                             <par6
                                 jcr:primaryType="nt:unstructured"
@@ -247,7 +247,7 @@
                             elementNames="gearList"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/napa-wine-tasting/napa-wine-tasting"
                             paragraphScope="all"
-                            text="Napa Wine Tasting Money for purchasing wine to take home Comfortable shoes for standing A healthy appetite for lunch"
+                            text="Napa Wine Tasting Shoes for walking on gravel and between vines A sun hat, and a layer for the cool cellars A photo ID showing that you are 21 or older"
                             variationName="master">
                             <par1
                                 jcr:primaryType="nt:unstructured"

@@ -5,9 +5,11 @@ Adobe's sample content came with Adobe's articles and teasers. Ours are in tools
 
   tools/texts/fragments/**/*.html   one content fragment each. The first lines are "key: value"
                                     (fragment: its path below /content/dam/weekender-shared, title:,
-                                    and any other property of the fragment's master variation,
-                                    "element: main" names the element the text goes to); after an
-                                    empty line comes the HTML, one block per paragraph.
+                                    and any other property of the fragment's master variation; page:
+                                    and summary: give the description of its page in every copy of the
+                                    site). After an empty line comes the HTML of the element "main", one
+                                    block per paragraph, or several elements, each after a line "== name".
+                                    The text that pages keep of a fragment follows.
   tools/texts/strings.json          {"old text": "new text"} for short texts in pages and experience
                                     fragments (teasers, descriptions, quotes), in every copy of the site.
 
@@ -21,6 +23,7 @@ import re
 import sys
 
 SHARED = "ui.content.shared/src/main/content/jcr_root/content/dam/weekender-shared"
+SAMPLE = "ui.content.sample/src/main/content/jcr_root/content"
 ROOTS = ["ui.content.sample/src/main/content/jcr_root/content", "ui.content.shared/src/main/content/jcr_root/content"]
 ATTR = re.compile(r'(\s)([\w:.-]+)="([^"]*)"')
 
@@ -60,23 +63,39 @@ def blocks_of(markup):
     return re.findall(r"<(h[1-6]|p|ul|ol|blockquote)[ >]", markup)
 
 
+def plain(markup):
+    text = re.sub(r"<[^>]+>", " ", markup)
+    return re.sub(r"\s+", " ", html.unescape(text)).strip()
+
+
 def fragments(check):
     problems = 0
+    placed = {}  # fragment path -> (title, {element: markup})
     for path in sorted(glob.glob("tools/texts/fragments/**/*.html", recursive=True)):
         head, _, body = open(path, encoding="utf-8").read().partition("\n\n")
         props = dict((k.strip(), v.strip()) for k, v in (line.split(":", 1) for line in head.splitlines() if ":" in line))
-        element = props.pop("element", "main")
-        target = os.path.join(SHARED, props.pop("fragment"), ".content.xml")
-        markup = "\n".join(block.strip() for block in body.strip().split("\n\n"))
-        source = open(target, encoding="utf-8").read()
-        start = source.index("<master")
-        old = re.search(r'\s%s="([^"]*)"' % re.escape(element), source[start:tag_end(source, start)])
-        if old and blocks_of(xml_text(old.group(1))) != blocks_of(markup) and xml_text(old.group(1)) != markup:
-            print("note  %s: blocks were %s, are %s" % (path, " ".join(blocks_of(xml_text(old.group(1)))), " ".join(blocks_of(markup))))
-        new, ok = set_attr(source, start, element, markup)
-        if not ok:
-            print("MISSING element %s in %s" % (element, target))
-            problems += 1
+        fragment = props.pop("fragment")
+        page, summary = props.pop("page", None), props.pop("summary", None)
+        target = os.path.join(SHARED, fragment, ".content.xml")
+        if body.lstrip().startswith("== "):
+            elements = {}
+            for part in re.split(r"(?m)^== ", body)[1:]:
+                name, _, markup = part.partition("\n")
+                elements[name.strip()] = markup
+        else:
+            elements = {props.pop("element", "main"): body}
+        source = new = open(target, encoding="utf-8").read()
+        for element, markup in elements.items():
+            markup = "\n".join(block.strip() for block in markup.strip().split("\n\n"))
+            elements[element] = markup
+            start = new.index("<master")
+            old = re.search(r'\s%s="([^"]*)"' % re.escape(element), new[start:tag_end(new, start)])
+            if element == "main" and old and blocks_of(xml_text(old.group(1))) != blocks_of(markup):
+                print("note  %s: blocks were %s, are %s" % (path, " ".join(blocks_of(xml_text(old.group(1)))), " ".join(blocks_of(markup))))
+            new, ok = set_attr(new, start, element, markup)
+            if not ok:
+                print("MISSING element %s in %s" % (element, target))
+                problems += 1
         for name, value in props.items():
             new, ok = set_attr(new, new.index("<master"), name, value)
             if not ok:
@@ -84,9 +103,47 @@ def fragments(check):
                 problems += 1
             if name == "title":
                 new, _ = set_attr(new, new.index("<jcr:content"), "jcr:title", value)
+        title = re.search(r'\stitle="([^"]*)"', new[new.index("<master"):tag_end(new, new.index("<master"))])
+        placed["/content/dam/weekender-shared/" + fragment] = (xml_text(title.group(1)) if title else "", elements)
         if new != source and not check:
             open(target, "w", encoding="utf-8").write(new)
+        if page and summary:
+            for site in sorted(glob.glob(SAMPLE + "/weekender/*/en/" + page + "/.content.xml")):
+                source = open(site, encoding="utf-8").read()
+                new, ok = set_attr(source, source.index("<jcr:content"), "jcr:description", summary)
+                if new != source and not check:
+                    open(site, "w", encoding="utf-8").write(new)
+    problems += cached(placed, check)
     return problems
+
+
+def cached(placed, check):
+    """The content fragment component keeps the text it shows in the page: that copy follows the fragment."""
+    for folder, _, files in os.walk(SAMPLE):
+        if ".content.xml" not in files:
+            continue
+        path = os.path.join(folder, ".content.xml")
+        source = new = open(path, encoding="utf-8").read()
+        at = 0
+        while True:
+            at = new.find("<", at)
+            if at < 0:
+                break
+            if new.startswith("<!--", at):
+                at = new.index("-->", at) + 3
+                continue
+            end = tag_end(new, at)
+            tag = new[at:end]
+            attrs = dict((k, xml_text(v)) for _, k, v in ATTR.findall(tag))
+            fragment = placed.get(attrs.get("fragmentPath"))
+            element = attrs.get("elementNames", "")
+            if fragment and "contentfragment" in attrs.get("sling:resourceType", "") and element in fragment[1] and "text" in attrs:
+                new, _ = set_attr(new, at, "text", (fragment[0] + " " + plain(fragment[1][element])).strip())
+                end = tag_end(new, at)
+            at = end + 1
+        if new != source and not check:
+            open(path, "w", encoding="utf-8").write(new)
+    return 0
 
 
 def strings(check):
@@ -105,9 +162,12 @@ def strings(check):
                     changed = value
                     for old, new in table.items():
                         for form in (old, html.escape(old, quote=False), html.escape(old, quote=True)):
-                            if form in changed:
+                            # Rich text has non-breaking and doubled spaces where the plain text has one.
+                            loose = re.compile(r"(?:\s|&nbsp;|\xa0)+".join(re.escape(word) for word in form.split(" ")))
+                            if loose.search(changed):
                                 markup = "<" in changed
-                                changed = changed.replace(form, html.escape(new, quote=False) if markup else new)
+                                with_this = html.escape(new, quote=False) if markup else new
+                                changed = loose.sub(lambda _: with_this, changed)
                                 used[old] += 1
                                 break
                     if changed == value:

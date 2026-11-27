@@ -8,7 +8,7 @@
         cq:lastRolledoutBy="admin"
         cq:tags="[weekender-shared:activity/skiing]"
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
-        jcr:description="Great weather, crystal clear lake water, and a relaxed California attitude make Lake Tahoe one of the most desirable ski destinations in the world. Few ski areas rival Lake Tahoe for its excellent snow conditions, challenging terrain and state-of-the-art lift chairs. Lake Tahoe is home to dozens of resorts and we'll be your guide for the best of them."
+        jcr:description="Three or four days around Lake Tahoe, at a different ski area each day, with the lake below you on every run and California sunshine most of the time."
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Tahoe Skiing"
@@ -284,7 +284,7 @@
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/tahoe-skiing/tahoe-skiing"
                             paragraphScope="all"
-                            text="Tahoe Skiing Great weather, crystal clear lake water, and a relaxed California attitude make Lake Tahoe one of the most desirable ski destinations in the world. Few ski areas rival Lake Tahoe for its excellent snow conditions, challenging terrain and state-of-the-art lift chairs. Lake Tahoe is home to dozens of resorts and we'll be your guide for the best of them."
+                            text="Tahoe Skiing Lake Tahoe sits at 1,900 metres on the border of California and Nevada, ringed by more than a dozen ski areas. The snow falls in great quantities and the sun comes out soon afterwards. We ski a different mountain each day and stay in one lodge on the north shore, so there is no packing and unpacking. The trip is for strong skiers and snowboarders who like variety."
                             variationName="master">
                             <par1
                                 cq:lastRolledout="{Date}2020-11-08T12:40:50.351-08:00"
@@ -328,7 +328,7 @@
                             elementNames="itinerary"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/tahoe-skiing/tahoe-skiing"
                             paragraphScope="all"
-                            text="Tahoe Skiing Mountain Springs Resort A world-renowned ski resort, Mountain Springs offers some of the best runs in Tahoe with gorgeous lake views. The resort offers 4,000 acres of skiable terrain, 40 ski lifts and more than 200 trails. A top-notch board park will satisfy the daredevils amongst us. Treeline Resort Treeline is the largest ski resort in Lake Tahoe with 5,000 acres of terrain including 150 trails accessed by 40 lifts. The resort offers wide-open, well groomed slopes for those learning to ski yet also offers double-black diamond runs for advanced skiers. Enjoy an après ski cocktail at the world famous Tips Up Lounge. Steeps Steeps is known for it's challenging terrain but also has 15% beginner runs and 25% intermediate runs. Steeps is also known for it's award winning terrain park with jumps and a half pipe. One of the highlights of Steeps is the village where there is an abundance of shops, restaurants and spas."
+                            text="Tahoe Skiing Day 1: The big mountain The largest area on the north shore, with wide bowls above the tree line and steep chutes for those who want them. A good day to find your legs. Day 2: The view A drive along the lake to the south shore, where the runs seem to drop straight into blue water on one side and the Nevada desert on the other. Long, fast cruising runs, and lunch on a terrace in the sun. Days 3 and 4: The locals' hills Two smaller areas that visitors overlook: fewer people, trees to ski between after a snowfall, and a bar where the lift crew drinks. The fourth day is optional."
                             variationName="master">
                             <par6
                                 cq:lastRolledout="{Date}2020-11-08T12:40:50.361-08:00"
@@ -350,7 +350,7 @@
                             elementNames="gearList"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/tahoe-skiing/tahoe-skiing"
                             paragraphScope="all"
-                            text="Tahoe Skiing Ski or snowboard equipment Jacket Pants Base layers Goggles Hat Helmet Gloves Sweater"
+                            text="Tahoe Skiing Skis or a snowboard, boots and poles (or hire them there) Helmet and goggles Waterproof jacket and trousers Base layers and a warm mid layer Gloves and a hat Sunscreen: the sun is strong at this height"
                             variationName="master">
                             <par1
                                 cq:lastRolledout="{Date}2020-11-08T12:40:50.366-08:00"

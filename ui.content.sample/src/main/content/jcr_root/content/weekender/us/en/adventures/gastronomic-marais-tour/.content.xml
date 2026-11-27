@@ -8,7 +8,7 @@
         cq:lastRolledoutBy="admin"
         cq:tags="[weekender-shared:activity/social]"
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
-        jcr:description="Take a VIP gastronomic tour through the vibrant Marais, one of the oldest, colorful and historical areas of Paris. Our Marais expert, Marie Bernard will take food lovers to the top food shops, patisseries and chocolate shops as you take in Marais' unique atmosphere."
+        jcr:description="A day of eating your way through the Marais in Paris with a guide who shops there: bread, cheese, falafel, pastry and a glass of wine to finish."
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Gastronomic Marais Tour"
@@ -283,7 +283,7 @@
                             displayMode="singleText"
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour"
-                            text="Gastronomic Marais Tour Take a VIP gastronomic tour through the vibrant Marais, one of the oldest, colorful and historical areas of Paris. Our Marais expert, Marie Bernard will take food lovers to the top food shops, patisseries and chocolate shops as you take in Marais' unique atmosphere."
+                            text="Gastronomic Marais Tour The Marais is one of the oldest quarters of Paris: narrow streets, hidden courtyards, and more good food to the square metre than almost anywhere in the city. With a guide who lives and shops here, a group of six at most spends the day tasting its way from bakery to cheese shop to market, and learns why each address is the one the neighbours choose."
                             variationName="master">
                             <par1
                                 cq:lastRolledout="{Date}2020-11-08T12:40:50.182-08:00"
@@ -306,7 +306,7 @@
                                     jcr:lastModifiedBy="admin"
                                     jcr:mixinTypes="[cq:LiveRelationship]"
                                     jcr:primaryType="nt:unstructured"
-                                    jcr:title="Duck legs confit, just one of the incredible dishes on the tour"
+                                    jcr:title="One of the stops on the walk"
                                     sling:resourceType="weekender/components/image"
                                     altValueFromDAM="true"
                                     displayPopupTitle="false"
@@ -327,7 +327,7 @@
                             displayMode="singleText"
                             elementNames="itinerary"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour"
-                            text="Gastronomic Marais Tour Meet your guide and small group (maximum 6 people) in the center of the Le Marais district. Learn from Marie about the artisanal French cuisine and culinary specialties from surrounding countries that make this one of the most fascinating and delicious destinations in Paris. Walk from shop to shop and experience the trendy district while sampling regional wines and cheese and, of course, patisseries. Continue past top neighborhood sights like the Maison de Victor Hugo and Place des Vosges, and browse Merci for vintage clothing and homeware accessories, gifts and stationary. Along the tour you’ll sample cured meats, craft cocktails, locally sourced foods and, of course, French wines. This tour offers convenient afternoon and evening start times, and includes all food and wine tastings and beverages.."
+                            text="Gastronomic Marais Tour We meet at ten by the oldest covered market in Paris, and begin with coffee and a croissant still warm from the oven of a baker two streets away. From there the walk follows the guide's own shopping route: a cheese shop where we taste five cheeses from mild to strong, a stall in the old Jewish quarter for falafel, a charcuterie, and a chocolate maker who lets visitors into the workshop. Between stops there are courtyards and a seventeenth-century square to see. We end at about three around a table in a wine bar, with a glass and whatever we bought along the way."
                             variationName="master">
                             <par1
                                 cq:lastRolledout="{Date}2020-11-08T12:40:50.192-08:00"
@@ -348,7 +348,7 @@
                             displayMode="singleText"
                             elementNames="gearList"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour"
-                            text="Gastronomic Marais Tour Comfortable walking shoes Camera Extra bag for shopping purchases"
+                            text="Gastronomic Marais Tour Comfortable walking shoes An appetite: skip breakfast A bag for what you will want to take home"
                             variationName="master">
                             <par1
                                 cq:lastRolledout="{Date}2020-11-08T12:40:50.198-08:00"

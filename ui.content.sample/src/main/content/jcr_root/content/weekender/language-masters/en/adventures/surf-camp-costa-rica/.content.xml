@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:tags="[weekender-shared:customer-journey/engage,weekender-shared:customer-journey/convert,weekender-shared:activity/surfing,weekender-shared:season/summer]"
         cq:template="/conf/weekender/settings/wcm/templates/adventure-page-template"
-        jcr:description="Costa Rica is the ideal location for a first surf trip. It is a safe place to travel and the locals are quite friendly and happy to see other surfers."
+        jcr:description="Five days in a small surf village on the Pacific coast of Costa Rica: two lessons a day in warm water, hammocks, howler monkeys and rice and beans."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
@@ -213,7 +213,7 @@
                             elementNames="description"
                             fragmentPath="/content/dam/weekender-shared/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica"
                             paragraphScope="range"
-                            text="Surf Camp Costa Rica Experience Surfer's Paradise in Costa Rica Experienced local surf guides will take care of all the logistics and find the best spots for you to experience the best surfing Costa Rica has to offer. If you are a novice, we can take you to the right spot for your skill and preference. Costa Rica is the ideal location for a first surf trip. It is a safe place to travel and the locals are quite friendly and happy to see other surfers. Costa Rica is home to some incredible waves like Witch’s Rock, Ollies Point, Pavones, Playa Negra, Playa Hermosa, Salsa Brava and tons of lesser known world class waves."
+                            text="Surf Camp in Costa Rica Learn to surf on the Pacific coast The Pacific coast of Costa Rica has warm water all year, long sandy beaches and waves that arrive in orderly lines. Our camp is in a village with one unpaved street, where the forest comes down to the sand. Local instructors teach in groups of three, so the week works equally well for a first-timer and for someone who wants to tidy up their turns."
                             variationName="master">
                             <par2
                                 jcr:primaryType="nt:unstructured"

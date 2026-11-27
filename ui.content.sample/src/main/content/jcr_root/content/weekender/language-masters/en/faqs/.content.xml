@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/weekender/settings/wcm/templates/content-page-template"
-        jcr:description="Here we answer some of the questions that we hear most often from the community."
+        jcr:description="The questions we are asked most often, and our answers."
         jcr:primaryType="cq:PageContent"
         jcr:title="FAQs"
         sling:resourceType="weekender/components/page">
@@ -79,7 +79,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="weekender/components/text"
-                        text="&lt;p>Weekender is a group of people who spend their free days outdoors and write down what they find: trips worth taking, places worth the detour and the things we wish we had known before. Our objective is create a community to help like-minded adventure seekers find fun, engaging, and responsible ways to to enjoy life and create lasting memories.&lt;/p>&#xa;"
+                        text="&lt;p>Weekender is a group of people who spend their free days outdoors and write down what they find: trips worth taking, places worth the detour and the things we wish we had known before. We want more people to get outside more often, and to come home with a good story.&lt;/p>&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <phone
@@ -108,7 +108,7 @@
                                 width="12"/>
                         </cq:responsive>
                         <item_1571070731882
-                            cq:panelTitle="Who is Weekender's intended audience?"
+                            cq:panelTitle="Who is Weekender for?"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="weekender/components/container">
                             <text
@@ -118,11 +118,11 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="weekender/components/text"
-                                text="&lt;p>We believe the best adventures and activities are those that are accessible to everyone. Weekender is designed to be inclusive of all age ranges, abilities, and budget-levels. We strive to cater to the thrill-seeking adrenaline junkie BASE-jumpers as well as novices that have a spare weekend and interest in trying something new.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                                text="&lt;p>For anyone with a free weekend and some curiosity. Every trip says plainly how fit and how experienced you need to be, and many need no experience at all. We write for people who have done these things for years and for people who are about to try them for the first time.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
                                 textIsRich="true"/>
                         </item_1571070731882>
                         <item_1
-                            cq:panelTitle="How does Weekender pay for itself?"
+                            cq:panelTitle="How does Weekender earn its money?"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Item 1"
                             sling:resourceType="weekender/components/container">
@@ -133,11 +133,11 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="weekender/components/text"
-                                text="&lt;p>Weekender charges a small fee for local promoters that want to sponsor their adventures and events on the Weekender site.&amp;nbsp; Sponsored Adventures may get sorted to more prominent positions in our Adventures listings pages.&lt;/p>&#xa;&lt;h3>&amp;nbsp;&lt;/h3>&#xa;"
+                                text="&lt;p>From the trips. The price of a trip pays the guides, the places we stay and the people who plan it. Nobody pays to appear in the magazine, and a trip is not listed higher because someone paid for it.&lt;/p>&#xa;&lt;h3>&amp;nbsp;&lt;/h3>&#xa;"
                                 textIsRich="true"/>
                         </item_1>
                         <item_2
-                            cq:panelTitle="Can I contribute to Weekender?"
+                            cq:panelTitle="Can I write for Weekender?"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Item 2"
                             sling:resourceType="weekender/components/container">
@@ -148,11 +148,11 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="weekender/components/text"
-                                text="&lt;p>Yes!&amp;nbsp; If you have the expertise and&amp;nbsp;experiences&amp;nbsp;to share, we’ll provide the platform to spread it.&amp;nbsp; As a Guest Writer, you will play an integral role in helping people find fun and cool things to do in your community.&lt;/p>&#xa;"
+                                text="&lt;p>Yes. If you know a place well and can describe it honestly, send us a short outline of the story and a few photographs of your own. We answer every proposal, and we pay for what we publish.&lt;/p>&#xa;"
                                 textIsRich="true"/>
                         </item_2>
                         <item_1571070705187
-                            cq:panelTitle="How often is WKDN updated?"
+                            cq:panelTitle="How often is there something new?"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="weekender/components/container">
                             <text
@@ -162,11 +162,11 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="weekender/components/text"
-                                text="&lt;p>Weekender is updated daily to provide you with the latest in-depth articles on fun activities that we’ve recently exploring and new adventures that are available for you to discover.&amp;nbsp; Come back often to see the latest or subscribe to our social feeds.&lt;/p>&#xa;"
+                                text="&lt;p>A new story appears in the magazine about once a week, and new trips are added at the start of each season. The dates and prices of the trips are kept up to date all year.&lt;/p>&#xa;"
                                 textIsRich="true"/>
                         </item_1571070705187>
                         <item_1571070718887
-                            cq:panelTitle="When was Weekender founded?"
+                            cq:panelTitle="How did Weekender start?"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="weekender/components/container">
                             <text
@@ -176,11 +176,11 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="weekender/components/text"
-                                text="&lt;p>Weekender was created in 2015 when our founders, Daniel and Kilian, realized that their friends and family were constantly using them as resources to find fun things to do while they were in Los Angeles. They loved sharing ideas about fun events and activities they knew of, but wanted to be able to do it at larger scale across communities.&amp;nbsp; They decided to start Weekender as a way to share their insights and experiences with as many people as possible.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                                text="&lt;p>With a shared spreadsheet. A few friends kept a list of weekend trips they had liked, with notes on what to bring and where to eat afterwards, and the list was passed on so often that it became a website. The trips with guides came later, when readers began to ask whether they could come along.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
                                 textIsRich="true"/>
                         </item_1571070718887>
                         <item_1572027287775
-                            cq:panelTitle="Is a hot dog a sandwich?"
+                            cq:panelTitle="What if the weather is bad?"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="weekender/components/container">
                             <text
@@ -190,7 +190,7 @@
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="weekender/components/text"
-                                text="&lt;p>While it may be described as meat between two pieces of bread, a hot dog is just a sandwich in the same way Michael Jordan was just a basketball player or William Shakespeare was just a playwright.&amp;nbsp; Technically true, but vastly understated.&lt;/p>&#xa;"
+                                text="&lt;p>Then the guide changes the plan. Every trip has a second route for bad days, and a guide may shorten or move a day for the safety of the group. If we have to cancel a trip ourselves, you get your money back.&lt;/p>&#xa;"
                                 textIsRich="true"/>
                         </item_1572027287775>
                         <item_1572027298182
@@ -269,7 +269,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="weekender/components/text"
-                        text="&lt;p style=&quot;text-align: left;&quot;>Give us a call at &lt;a href=&quot;#&quot;>1-800-800-0000&lt;/a>.&lt;br>&#xd;&#xa;E-mail us at info&lt;a href=&quot;#&quot;>@weekender.com&lt;/a>&lt;br>&#xd;&#xa;We love to talk adventures!&lt;/p>&#xd;&#xa;"
+                        text="&lt;p style=&quot;text-align: left;&quot;>Give us a call at &lt;a href=&quot;#&quot;>1-800-800-0000&lt;/a>.&lt;br>&#xd;&#xa;E-mail us at info&lt;a href=&quot;#&quot;>@weekender.com&lt;/a>&lt;br>&#xd;&#xa;We like talking about trips.&lt;/p>&#xd;&#xa;"
                         textIsRich="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <phone
