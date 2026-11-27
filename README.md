@@ -53,6 +53,8 @@ Every photo is from [Wikimedia Commons](https://commons.wikimedia.org), under a 
 | `redo_images.py` | Chooses other photos for the assets listed in `tools/redo.txt`, after a look at the contact sheets |
 | `contact_sheet.py` | Puts all photos on a few sheets, to look them over |
 | `brand.py` | Draws the logo, the favicons and the pictures of the templates |
+| `rename_contributors.py` | Gives the contributors invented names, in names, paths and drawn portraits |
+| `apply_texts.py` | Places the project's own texts (`tools/texts`: articles, trips, teasers) in the content packages; `--check` only reports |
 
 ## Licence
 
