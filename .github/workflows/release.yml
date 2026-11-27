@@ -1,4 +1,4 @@
-# Builds the packages and attaches them to a GitHub release:  git tag v1.0.0 && git push origin v1.0.0
+# Builds the packages and attaches them to a GitHub release:  git tag v1.0.1 && git push origin v1.0.1
 name: Release
 
 on:
