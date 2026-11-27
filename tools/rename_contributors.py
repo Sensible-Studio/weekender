@@ -15,7 +15,7 @@ PEOPLE = [
     (["jake-hammer", "alex-iby"], ["Jake Hammer", "Alex Iby"], "rafael-monteiro", "Rafael Monteiro"),
     (["justin-barr"], ["Justin Barr"], "dana-whitlow", "Dana Whitlow"),
     (["kumar-selveraj", "kumar-selvaraj"], ["Kumar Selveraj", "Kumar Selvaraj"], "arun-pillai", "Arun Pillai"),
-    (["sofia-sj-berg", "ayo-ogunseinde"], ["Sofia Sjöberg", "Ayo Ogunseinde"], "elin-marklund", "Elin Marklund"),
+    (["sofia-sj-berg", "sofia-sjoeberg", "ayo-ogunseinde"], ["Sofia Sjöberg", "Ayo Ogunseinde"], "elin-marklund", "Elin Marklund"),
     (["stacey-roswells"], ["Stacey Roswells"], "maya-ortega", "Maya Ortega"),
 ]
 SKIP_DIRS = {".git", "target", "node_modules", "dist"}

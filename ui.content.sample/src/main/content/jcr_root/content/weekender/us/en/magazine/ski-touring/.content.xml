@@ -188,7 +188,7 @@
                         jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="weekender/components/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/weekender/language-masters/en/contributors/sofia-sjoeberg/byline"/>
+                        fragmentVariationPath="/content/experience-fragments/weekender/language-masters/en/contributors/elin-marklund/byline"/>
                 </container>
                 <container_223059690
                     cq:lastRolledout="{Date}2020-09-30T17:38:06.935-07:00"
